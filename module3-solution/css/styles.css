@@ -1,0 +1,81 @@
+/* base styles */
+body {
+  font-size: 16px;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #fff;
+  background-color: #4a2349;
+}
+
+h2 {
+  text-shadow: 5px 5px 5px #222;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: .75;
+}
+/* end: base styles */
+/* header */
+#header-nav {
+  border: 0;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  background-color: #26bf22;
+}
+/* brand */
+.navbar-brand {
+  height: 90px
+}
+.navbar-brand h1 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #222;
+  color: #fff;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+/* end: brand */
+/* menu */
+#collapsable-nav {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+#nav-list {
+  margin: 0;
+  background-color: #042f1a;
+}
+#nav-list a {
+  color: #fff;
+  border-top: 1px solid black;
+}
+#nav-list a:hover {
+  color: #797876;
+  background-color: #ebebeb;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 25px;
+}
+/* end: menu */
+/* end: header */
+/* content */
+#main-content h2 {
+  margin-top: 5px;
+}
+
+#main-text {
+  margin-top: 30px;
+  min-height: 1000px;
+  font-size 1.2em;
+  color: #797876;
+  background-color: #ebebeb;
+}
+/* end: content */
